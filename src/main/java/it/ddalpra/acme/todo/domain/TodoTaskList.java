@@ -14,10 +14,12 @@ import lombok.Setter;
 @Getter
 public class TodoTaskList extends BaseEntity {
 
-    public String displayName;
-    public Boolean isOwner;
-    public Boolean isShared;
-    public String wellknownListName;
+    private String displayName;
+    private Boolean isOwner;
+    private Boolean isShared;
+    private String wellknownListName;
+
+
 
     // Costruttori, getter e setter
 }
